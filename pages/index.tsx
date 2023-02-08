@@ -1,9 +1,5 @@
 import { Container, Text, Box, Button } from "@chakra-ui/react";
 import Image from "next/image";
-import CheckMarkIcon from "../public/Assets/CheckMarkIcon.png";
-import AdvantagesIcon from "../public/Assets/advantagesIcon.png";
-import AdvantagesIcon1 from "../public/Assets/advantagesIcon1.png";
-import AdvantagesIcon2 from "../public/Assets/advantagesIcon2.png";
 
 export default function Home() {
   return (
@@ -143,7 +139,7 @@ export default function Home() {
                         alignItems="center"
                         gap="13px"
                       >
-                        <Image src={CheckMarkIcon} alt="check" />
+                        <Image width={23} height={23} src={'/../public/Assets/CheckMarkIcon.png'} alt="check" />
                         <Text
                           fontSize={{ lg: "18px", md: "18px", base: "15px" }}
                           color="#2D3748"
@@ -159,7 +155,7 @@ export default function Home() {
                         maxW="100%"
                         p="0"
                       >
-                        <Image src={CheckMarkIcon} alt="check" />
+                        <Image width={23} height={23} src={'/../public/Assets/CheckMarkIcon.png'} alt="check" />
                         <Text
                           fontSize={{ lg: "18px", md: "18px", base: "15px" }}
                           color="#2D3748"
@@ -175,7 +171,7 @@ export default function Home() {
                         maxW="100%"
                         p="0"
                       >
-                        <Image src={CheckMarkIcon} alt="check" />
+                        <Image width={23} height={23} src={'/../public/Assets/CheckMarkIcon.png'} alt="check" />
                         <Text
                           fontSize={{ lg: "18px", md: "18px", base: "15px" }}
                           color="#2D3748"
@@ -191,7 +187,7 @@ export default function Home() {
                         maxW="100%"
                         p="0"
                       >
-                        <Image src={CheckMarkIcon} alt="check" />
+                        <Image width={23} height={23} src={'/../public/Assets/CheckMarkIcon.png'} alt="check" />
                         <Text
                           fontSize={{ lg: "18px", md: "18px", base: "15px" }}
                           color="#2D3748"
@@ -232,7 +228,7 @@ export default function Home() {
                 p="0"
                 m="0"
               >
-                <Image src={AdvantagesIcon} alt="adv" />
+                <Image width={46} height={46} src={'/../public/Assets/advantagesIcon.png'} alt="adv" />
                 <Text
                   fontSize={{ lg: "18px", md: "13px", base: "15px" }}
                   color="#171923"
@@ -250,7 +246,7 @@ export default function Home() {
                 p="0"
                 m="0"
               >
-                <Image src={AdvantagesIcon1} alt="adv" />
+                <Image width={46} height={46} src={'/../public/Assets/advantagesIcon1.png'} alt="adv" />
                 <Text
                   fontSize={{ lg: "18px", md: "13px", base: "15px" }}
                   color="#171923"
@@ -268,7 +264,7 @@ export default function Home() {
                 p="0"
                 m="0"
               >
-                <Image src={AdvantagesIcon2} alt="adv" />
+                <Image width={46} height={46} src={'/../public/Assets/advantagesIcon2.png'} alt="adv" />
                 <Text
                   fontSize={{ lg: "18px", md: "13px", base: "15px" }}
                   color="#171923"
